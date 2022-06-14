@@ -1,0 +1,86 @@
+input[type=checkbox]
+{
+    -ms-transform: scale(2);
+    -moz-transform: scale(2);
+    -webkit-transform: scale(2);
+    -o-transform: scale(2);
+    padding: 10px;
+}
+.checkboxtext
+{
+    font-size: 110%;
+    display: inline;
+}.arrow {
+    line-height: 27px;
+    width: 60px;
+    height: 30px;
+}
+.table.no-border tr td, .table.no-border tr th {
+    border-width: 0;
+}
+.no-shadow{
+    -webkit-box-shadow: 0 3px 5px #333;
+    -moz-box-shadow: 0 3px 5px #333;
+    box-shadow: 0 3px 5px #333;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: none !important;
+    box-shadow: none;
+    background: none !important;
+    color: black;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control, input[disabled], select[disabled], textarea[disabled] {
+    cursor: default;
+}
+.table.no-border tr td, .table.no-border tr th {
+    border-width: 0;
+}
+.no-shadow{
+    -webkit-box-shadow: 0 3px 5px #333;
+    -moz-box-shadow: 0 3px 5px #333;
+    box-shadow: 0 3px 5px #333;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: none !important;
+    box-shadow: none;
+    background: none !important;
+    color: black;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.mx-calendar-icon {
+    width: 100% !important;
+    height: 15% !important;
+    color: #555 !important;
+    stroke-width: 8px !important;
+    stroke: currentColor !important;
+    fill: currentColor !important;
+}
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #8a9493;
+}
+.fade-enter-active, .fade-leave-active {
+    transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to {
+    opacity: 0;
+}
